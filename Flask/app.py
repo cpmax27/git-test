@@ -11,8 +11,9 @@ app.config['MYSQL_DB'] = 'flaskcontacs'
 mysql = MySQL(app)
 
 # Settings
+# hola mundo test
 
-app.secret_key = 'Tuputamadre'
+app.secret_key = 'testest'
 
 @app.route('/')
 def Index():
